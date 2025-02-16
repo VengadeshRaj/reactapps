@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import Route from './Route';
+import FrRoutes from './Routes';
 import PageLayout from './fr-components/PageLayout/PageLayout';
 
 const root = ReactDOM.createRoot(
@@ -11,7 +11,7 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <PageLayout>
-      <Route />
+      <FrRoutes />
     </PageLayout>
   </React.StrictMode>
 );
